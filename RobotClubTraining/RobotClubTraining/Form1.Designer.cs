@@ -63,6 +63,7 @@
             this.cmdPersonB.TabIndex = 1;
             this.cmdPersonB.Text = "Person B";
             this.cmdPersonB.UseVisualStyleBackColor = true;
+            this.cmdPersonB.Click += new System.EventHandler(this.cmdPersonB_Click);
             // 
             // cmdPersonC
             // 
@@ -106,6 +107,7 @@
             this.txtPersonB.Name = "txtPersonB";
             this.txtPersonB.Size = new System.Drawing.Size(100, 20);
             this.txtPersonB.TabIndex = 6;
+            this.txtPersonB.TextChanged += new System.EventHandler(this.txtPersonB_TextChanged);
             // 
             // txtPersonC
             // 
@@ -192,6 +194,7 @@
             this.Controls.Add(this.cmdPersonA);
             this.Name = "frmRobotClub";
             this.Text = "Robotics Club Thing";
+            this.Load += new System.EventHandler(this.frmRobotClub_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

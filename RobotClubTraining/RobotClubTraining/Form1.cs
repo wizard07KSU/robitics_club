@@ -41,6 +41,22 @@ namespace RobotClubTraining
         }
             lblPersonD.Text = "Don't press me!"; 
         }
+        
+          private void cmdPersonB_Click( object sender, EventArgs e )
+        {
+            lblPersonB.Text = txtPersonB.Text;
+        }
 
-    }
+        private void txtPersonB_TextChanged( object sender, EventArgs e )
+        {
+
+        }
+
+
+        private void frmRobotClub_Load( object sender, EventArgs e )
+        {
+
+        }
+    } 
+
 }
