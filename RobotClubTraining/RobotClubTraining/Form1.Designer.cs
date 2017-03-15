@@ -53,6 +53,7 @@
             this.cmdPersonA.TabIndex = 0;
             this.cmdPersonA.Text = "Person A";
             this.cmdPersonA.UseVisualStyleBackColor = true;
+            this.cmdPersonA.Click += new System.EventHandler(this.cmdPersonA_Click);
             // 
             // cmdPersonB
             // 
