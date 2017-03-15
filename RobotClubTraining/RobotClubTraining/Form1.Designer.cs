@@ -149,6 +149,7 @@
             this.cmdExample.TabIndex = 12;
             this.cmdExample.Text = "Example";
             this.cmdExample.UseVisualStyleBackColor = true;
+            this.cmdExample.Click += new System.EventHandler(this.cmdExample_Click);
             // 
             // txtExample
             // 

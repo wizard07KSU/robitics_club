@@ -16,5 +16,10 @@ namespace RobotClubTraining
         {
             InitializeComponent();
         }
+
+        private void cmdExample_Click( object sender, EventArgs e )
+        {
+            lblExample.Text = txtExample.Text;
+        }
     }
 }
