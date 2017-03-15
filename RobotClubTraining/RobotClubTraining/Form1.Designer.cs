@@ -65,12 +65,14 @@
             // 
             // cmdPersonC
             // 
+            this.cmdPersonC.BackColor = System.Drawing.SystemColors.Desktop;
             this.cmdPersonC.Location = new System.Drawing.Point(224, 12);
             this.cmdPersonC.Name = "cmdPersonC";
             this.cmdPersonC.Size = new System.Drawing.Size(100, 23);
             this.cmdPersonC.TabIndex = 2;
             this.cmdPersonC.Text = "Person C";
-            this.cmdPersonC.UseVisualStyleBackColor = true;
+            this.cmdPersonC.UseVisualStyleBackColor = false;
+            this.cmdPersonC.Click += new System.EventHandler(this.cmdPersonC_Click);
             // 
             // cmdPersonD
             // 

@@ -21,5 +21,13 @@ namespace RobotClubTraining
         {
             lblExample.Text = txtExample.Text;
         }
+
+        private void cmdPersonC_Click(object sender, EventArgs e)
+        {
+            lblPersonA.Text = txtPersonC.Text;
+            lblPersonB.Text = txtPersonC.Text;
+            lblPersonC.Text = txtPersonC.Text;
+            lblPersonD.Text = txtPersonC.Text;
+        }
     }
 }
