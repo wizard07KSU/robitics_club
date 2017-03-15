@@ -21,5 +21,10 @@ namespace RobotClubTraining
         {
             lblExample.Text = txtExample.Text;
         }
+
+        private void cmdPersonD_Click(object sender, EventArgs e)
+        {
+            lblPersonD.Text = "Don't press me!"; 
+        }
     }
 }

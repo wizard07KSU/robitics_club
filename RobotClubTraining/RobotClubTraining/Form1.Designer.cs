@@ -80,6 +80,7 @@
             this.cmdPersonD.TabIndex = 3;
             this.cmdPersonD.Text = "Person D";
             this.cmdPersonD.UseVisualStyleBackColor = true;
+            this.cmdPersonD.Click += new System.EventHandler(this.cmdPersonD_Click);
             // 
             // lblPersonA
             // 
