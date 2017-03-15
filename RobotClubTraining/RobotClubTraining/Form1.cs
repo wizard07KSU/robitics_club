@@ -22,6 +22,16 @@ namespace RobotClubTraining
             lblExample.Text = txtExample.Text;
         }
 
+        private void cmdPersonA_Click(object sender, EventArgs e)
+        {
+            lblPersonA.Text = txtPersonA.Text;
+        }
+
+        private void cmdPersonB_Click( object sender, EventArgs e )
+        {
+            lblPersonB.Text = txtPersonB.Text;
+        }
+
         private void cmdPersonC_Click(object sender, EventArgs e)
         {
             lblPersonA.Text = txtPersonC.Text;
@@ -29,23 +39,13 @@ namespace RobotClubTraining
             lblPersonC.Text = txtPersonC.Text;
             lblPersonD.Text = txtPersonC.Text;
         }
-        {
-        private void cmdPersonA_Click(object sender, EventArgs e)
-        {
-            lblPersonA.Text = txtPersonA.Text;
-        }
-        
+
         private void cmdPersonD_Click(object sender, EventArgs e)
         {
-            lblPersonD.Text = "Don't press me!"; 
-        }
-            lblPersonD.Text = "Don't press me!"; 
+            lblPersonD.Text = "Don't press me!";  
         }
         
-          private void cmdPersonB_Click( object sender, EventArgs e )
-        {
-            lblPersonB.Text = txtPersonB.Text;
-        }
+          
 
         private void txtPersonB_TextChanged( object sender, EventArgs e )
         {
